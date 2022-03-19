@@ -1,6 +1,6 @@
 # ansi-escape-code
 
-[![deno land](http://img.shields.io/badge/available%20on-deno.land/x-lightgrey.svg?logo=deno)](https://deno.land/x/ansi-escape-code)
+[![deno land](http://img.shields.io/badge/available%20on-deno.land/x-lightgrey.svg?logo=deno)](https://deno.land/x/ansi_escape_code)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/ansi_escape_code/mod.ts)
 [![Test](https://github.com/lambdalisue/deno-ansi-escape-code/workflows/Test/badge.svg)](https://github.com/lambdalisue/deno-ansi-escape-code/actions?query=workflow%3ATest)
 
