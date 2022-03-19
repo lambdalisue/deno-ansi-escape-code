@@ -19,6 +19,7 @@ Deno.test("parseSgr", async (t) => {
       foreground: [0, 0, 0],
       background: [0, 0, 0],
     }],
+    ["39;49", { foreground: "default", background: "default" }],
     // Fraktur (Gothic) that rarely supported (and parseSgr does not support as well)
     ["20", {}],
   ];

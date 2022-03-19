@@ -40,6 +40,8 @@ export function parseSgr(parameters: string): Sgr {
     ],
     [/^38;5;(\d*);/, (m) => sgr.foreground = Number(m[1] || 0)],
     [/^48;5;(\d*);/, (m) => sgr.background = Number(m[1] || 0)],
+    [/^39;/, () => sgr.foreground = "default"],
+    [/^49;/, () => sgr.background = "default"],
     [/^3([0-7]);/, (m) => sgr.foreground = Number(m[1])],
     [/^4([0-7]);/, (m) => sgr.background = Number(m[1])],
     [/^9([0-7]);/, (m) => sgr.foreground = Number(m[1]) + 8],
