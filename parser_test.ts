@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.130.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 import { Annotation, trimAndParse } from "./parser.ts";
 
 Deno.test("trimAndParse", async (t) => {

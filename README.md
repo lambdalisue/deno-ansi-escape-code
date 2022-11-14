@@ -11,7 +11,7 @@ Utilities to trim and parse ANSI escape sequence.
 ## Usage
 
 ```typescript
-import { assertEquals } from "https://deno.land/std@0.130.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 import { trimAndParse } from "https://deno.land/x/ansi_escape_code/mod.ts";
 
 const [trimmed, annotations] = trimAndParse(

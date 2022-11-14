@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.130.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 import { parseSgr, Sgr } from "./sgr.ts";
 
 Deno.test("parseSgr", async (t) => {
