@@ -1,5 +1,8 @@
 {
+  "lock": false,
   "tasks": {
-    "deps": "deno run  -A https://deno.land/x/udd@0.7.2/main.ts mod.ts"
+    "test": "deno test --unstable -A --parallel",
+    "check": "deno check --unstable $(find . -name '*.ts')",
+    "upgrade": "deno run -A https://deno.land/x/udd/main.ts $(find . -name '*.ts')"
   }
 }

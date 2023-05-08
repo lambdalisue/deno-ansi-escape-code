@@ -15,7 +15,7 @@ import { assertEquals } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 import { trimAndParse } from "https://deno.land/x/ansi_escape_code/mod.ts";
 
 const [trimmed, annotations] = trimAndParse(
-  "\x1b[1mHe\x1b[30mll\x1b[31mo\x1b[m world",
+  "\x1b[1mHe\x1b[30mll\x1b[31mo\x1b[m world"
 );
 
 assertEquals(trimmed, "Hello world");
@@ -25,32 +25,6 @@ assertEquals(annotations, [
   { offset: 4, raw: "\x1b[31m", csi: { sgr: { foreground: 1 } } },
   { offset: 5, raw: "\x1b[m", csi: { sgr: { reset: true } } },
 ]);
-```
-
-## Development
-
-Lint code like:
-
-```text
-deno lint
-```
-
-Format code like
-
-```text
-deno fmt
-```
-
-Check types like
-
-```text
-deno test --no-run **/*.ts
-```
-
-Run tests like:
-
-```text
-deno test **/*.ts
 ```
 
 ## License
