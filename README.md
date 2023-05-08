@@ -15,7 +15,7 @@ import { assertEquals } from "https://deno.land/std@0.164.0/testing/asserts.ts";
 import { trimAndParse } from "https://deno.land/x/ansi_escape_code/mod.ts";
 
 const [trimmed, annotations] = trimAndParse(
-  "\x1b[1mHe\x1b[30mll\x1b[31mo\x1b[m world"
+  "\x1b[1mHe\x1b[30mll\x1b[31mo\x1b[m world",
 );
 
 assertEquals(trimmed, "Hello world");
