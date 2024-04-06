@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.186.0/testing/asserts.ts";
-import { parseSgr, Sgr } from "./sgr.ts";
+import { parseSgr, type Sgr } from "./sgr.ts";
 
 Deno.test("parseSgr", async (t) => {
   const testcases: [string, Sgr][] = [

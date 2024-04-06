@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.186.0/testing/asserts.ts";
-import { Annotation, trimAndParse } from "./parser.ts";
+import { type Annotation, trimAndParse } from "./parser.ts";
 
 Deno.test("trimAndParse", async (t) => {
   const testcases: [string, [string, Annotation[]]][] = [
