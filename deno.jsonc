@@ -1,5 +1,8 @@
 {
   "lock": false,
+  "name": "@lambdalisue/ansi-escape-code",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
   "tasks": {
     "test": "deno test --unstable -A --parallel",
     "check": "deno check --unstable $(find . -name '*.ts')",

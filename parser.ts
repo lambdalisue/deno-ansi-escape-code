@@ -1,4 +1,4 @@
-import { Csi, parseCsi, patternCsi } from "./csi.ts";
+import { type Csi, parseCsi, patternCsi } from "./csi.ts";
 
 const patternCsiGlobal = new RegExp(patternCsi, "g");
 

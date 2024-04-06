@@ -1,4 +1,4 @@
-import { parseSgr, Sgr } from "./sgr.ts";
+import { parseSgr, type Sgr } from "./sgr.ts";
 
 export const patternCsi =
   // deno-lint-ignore no-control-regex
