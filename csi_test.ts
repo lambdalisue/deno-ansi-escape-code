@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.186.0/testing/asserts.ts";
+import { assertEquals } from "jsr:@std/assert@1.0.2/equals";
 import { type Csi, parseCsi } from "./csi.ts";
 
 Deno.test("parseCsi", async (t) => {
