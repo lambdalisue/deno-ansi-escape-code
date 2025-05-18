@@ -4,8 +4,8 @@ const patternCsiGlobal = new RegExp(patternCsi, "g");
 
 export type Annotation = {
   offset: number;
-  raw: string;
   csi: Csi;
+  raw: string;
 };
 
 export type AnnotationText = {
